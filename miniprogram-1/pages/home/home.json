@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "footer":"/components/footer/footer",
+    "pubtitle":"/components/pubTitle/pubtitle"
+  }
+}

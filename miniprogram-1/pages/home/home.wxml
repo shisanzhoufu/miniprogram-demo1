@@ -1,0 +1,141 @@
+<!-- logo 客服 -->
+<view class="header">
+  <view class="container conHe">
+    <navigator class="logo" open-type="switchTab" url="/page/home/home">
+      <image mode="heightFix" src="/images/logo.png"></image>
+    </navigator>
+    <view class="kefu">
+    <button open-type="contact" class="btn"></button>
+      <image mode="heightFix" src="/images/xiaoxi.png"></image>
+    </view>
+  </view>
+</view>
+
+<!-- 轮播图 -->
+<view class="banner">
+  <swiper autoplay circular interval="2000">
+    <swiper-item><image src="/images/banner1.jpg"></image></swiper-item>
+    <swiper-item><image src="/images/banner2.jpg"></image></swiper-item>
+    <swiper-item><image src="/images/banner3.jpg"></image></swiper-item>
+  </swiper>
+</view>
+
+<!-- grid -->
+<scroll-view class="major" scroll-x>
+    <navigator  url="/pages/pmworks/pmworks" class="box">
+      <image src="/images/kecheng1.png" class="pic" ></image>
+      <view class="txt">平面设计</view>
+    </navigator>
+    <navigator url="" class="box">
+      <image src="/images/kecheng2.png" class="pic"></image>
+      <view class="txt">室内设计</view>
+    </navigator>
+    <navigator url="" class="box">
+      <image src="/images/kecheng3.png" class="pic"></image>
+      <view class="txt">UI设计</view>
+    </navigator>
+    <navigator url="" class="box">
+      <image src="/images/kecheng4.png" class="pic"></image>
+      <view class="txt">web前端</view>
+    </navigator>
+    <navigator url="" class="box">
+      <image src="/images/kecheng5.png" class="pic"></image>
+      <view class="txt">影视后期 </view>
+    </navigator>
+</scroll-view>
+
+<!-- 学员作品 -->
+<view class="works">
+<view class="container">
+<pubtitle myTitle="学员作品" myUrl="/pages/works/works"/>
+
+  <view class="wkMain">
+    <navigator class="box">
+    <image src="/images/xszp1.jpg" class="pic"></image>
+      <view class="ceng">
+          <view class="txt">UI设计</view>
+          <view class="line"></view>
+          <view class="des">UI design works</view>
+        </view>
+    </navigator>
+    <navigator class="box">
+    <image src="/images/xszp2.jpg" class="pic"></image>
+      <view class="ceng">
+          <view class="txt">UI设计</view>
+          <view class="line"></view>
+          <view class="des">UI design works</view>
+        </view>
+    </navigator>
+    <navigator class="box">
+    <image src="/images/xszp3.jpg" class="pic"></image>
+      <view class="ceng">
+          <view class="txt">UI设计</view>
+          <view class="line"></view>
+          <view class="des">UI design works</view>
+        </view>
+    </navigator>
+    <navigator class="box">
+    <image src="/images/xszp4.jpg" class="pic"></image>
+      <view class="ceng">
+          <view class="txt">UI设计</view>
+          <view class="line"></view>
+          <view class="des">UI design works</view>
+        </view>
+    </navigator>
+    <navigator class="box">
+    <image src="/images/xszp5.jpg" class="pic"></image>
+      <view class="ceng">
+          <view class="txt">UI设计</view>
+          <view class="line"></view>
+          <view class="des">UI design works</view>
+        </view>
+    </navigator>
+    <navigator class="box">
+    <image src="/images/xszp6.jpg" class="pic"></image>
+      <view class="ceng">
+          <view class="txt">Web前端开发</view>
+          <view class="line"></view>
+          <view class="des">Web front-end development</view>
+        </view>
+    </navigator>
+    <navigator class="box">
+    <image src="/images/xszp7.jpg" class="pic"></image>
+      <view class="ceng">
+          <view class="txt">UI设计</view>
+          <view class="line"></view>
+          <view class="des">UI design works</view>
+        </view>
+    </navigator>
+    <navigator class="box">
+    <image src="/images/xszp8.jpg" class="pic"></image>
+      <view class="ceng">
+          <view class="txt">UI设计</view>
+          <view class="line"></view>
+          <view class="des">UI design works</view>
+        </view>
+    </navigator>
+  </view>
+</view>
+</view>
+
+<view class="dynamic">
+<view class="container">
+<pubtitle myTitle="行业动态" myUrl="/pages/dynamic/dynamic"/>
+
+   <view class="dyMain" wx:for="{{dataList}}" wx:key="index">
+    <navigator class="dyItem">
+    <view class="pic">
+      <image class="" src="{{item.picurl}}"></image>
+    </view>
+      <view class="txt">
+      <view class="title">
+        {{item.title}}
+      </view>
+      <view class="info">作者：{{item.author}} - 时间：2020-07-05 </view>
+      </view>
+    </navigator>
+   </view>
+</view>
+</view>
+
+<footer/>

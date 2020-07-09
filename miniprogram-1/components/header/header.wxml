@@ -1,0 +1,12 @@
+<!-- logo 客服 -->
+<view class="header">
+  <view class="container conHe">
+    <navigator class="logo" open-type="switchTab" url="/page/home/home">
+      <image mode="heightFix" src="/images/logo.png"></image>
+    </navigator>
+    <view class="kefu">
+    <button open-type="contact" class="btn"></button>
+      <image mode="heightFix" src="/images/xiaoxi.png"></image>
+    </view>
+  </view>
+</view>

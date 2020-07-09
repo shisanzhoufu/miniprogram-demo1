@@ -1,0 +1,4 @@
+<view class="footer">
+  <image src="/images/logo.png" class="pic" mode="widthFix"></image>
+  <view class="text">- 高端实训 -</view>
+</view>

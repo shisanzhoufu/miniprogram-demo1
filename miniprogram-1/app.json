@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/works/works",
+    "pages/dynamic/dynamic",
+    "pages/pmworks/pmworks"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "案例练习",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "color": "#b6b6b6",
+    "selectedColor":"#fe9132",
+    "list":[
+      {
+        "pagePath":"pages/home/home",
+        "text":"首页",
+        "iconPath":"/images/home.png",
+        "selectedIconPath":"/images/home-h.png"
+      },
+      {
+        "pagePath":"pages/works/works",
+        "text":"作品",
+        "iconPath":"/images/list.png",
+        "selectedIconPath":"/images/list-h.png"
+      },
+      {
+        "pagePath":"pages/dynamic/dynamic",
+        "text":"动态",
+        "iconPath":"/images/user.png",
+        "selectedIconPath":"/images/user-h.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

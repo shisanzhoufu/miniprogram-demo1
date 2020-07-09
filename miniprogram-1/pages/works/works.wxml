@@ -1,0 +1,109 @@
+<!-- logo 客服 -->
+<view class="header">
+  <view class="container conHe">
+    <navigator class="logo" open-type="switchTab" url="/page/home/home">
+      <image mode="heightFix" src="/images/logo.png"></image>
+    </navigator>
+    <view class="kefu">
+    <button open-type="contact" class="btn"></button>
+      <image mode="heightFix" src="/images/xiaoxi.png"></image>
+    </view>
+  </view>
+</view>
+
+<!-- 顶部导航栏 -->
+<scroll-view class="nav" scroll-x scroll-with-animation="true" margin-top>
+<navigator url="" class="navBar">
+  <view class="txt">  
+      全部
+    </view>
+</navigator>
+<navigator class="navBar" url="">
+  <view class="txt">  
+      平面设计
+    </view>
+</navigator>
+<navigator class="navBar" url="">
+  <view class="txt">  
+      web前端
+    </view>
+</navigator>
+<navigator class="navBar" url="">
+  <view class="txt">  
+      UI培训
+    </view>
+</navigator>
+<navigator class="navBar" url="">
+  <view class="txt">  
+      室内设计
+    </view>
+</navigator>
+<navigator class="navBar" url="">
+  <view class="txt">  
+      景观设计
+    </view>
+</navigator>
+<navigator class="navBar" url="">
+  <view class="txt">  
+      三维动画
+    </view>
+</navigator>
+<navigator class="navBar" url="">
+  <view class="txt">  
+      电子商务
+    </view>
+</navigator>
+</scroll-view>
+
+<view class="works">
+<view class="container">
+  <navigator class="box">
+    <image src="/images/2019_ps.jpg" class="pic"></image>
+          <view class="txt">《个人demo》 小程序设计 小王</view>
+          <view class="des">
+          <text class="catogory">小程序作品</text> 
+          <text class="see">see:111</text>
+          </view>
+    </navigator>
+    <navigator class="box">
+    <image src="/images/2019_ps_guanggaogouqi.jpg" class="pic"></image>
+          <view class="txt">《个人demo》 小程序设计 小王</view>
+          <view class="des">
+          <text class="catogory">小程序作品</text> 
+          <text class="see">see:111</text>
+          </view>
+    </navigator>
+    <navigator class="box">
+    <image src="/images/2019_ps_cdr.jpg" class="pic"></image>
+          <view class="txt">《个人demo》 小程序设计 小王</view>
+          <view class="des">
+          <text class="catogory">小程序作品</text> 
+          <text class="see">see:111</text>
+          </view>
+    </navigator>
+    <navigator class="box">
+    <image src="/images/2019_ps_ai.jpg" class="pic"></image>
+          <view class="txt">《个人demo》 小程序设计 小王</view>
+          <view class="des">
+          <text class="catogory">小程序作品</text> 
+          <text class="see">see:111</text>
+          </view>
+    </navigator>
+     <navigator class="box">
+    <image src="/images/2019_ps_ai.jpg" class="pic"></image>
+          <view class="txt">《个人demo》 小程序设计 小王</view>
+          <view class="des">
+          <text class="catogory">小程序作品</text> 
+          <text class="see">see:111</text>
+          </view>
+    </navigator>
+     <navigator class="box">
+    <image src="/images/2019_ps_id.jpg" class="pic"></image>
+          <view class="txt">《个人demo》 小程序设计 小王</view>
+          <view class="des">
+          <text class="catogory">小程序作品</text> 
+          <text class="see">see:111</text>
+          </view>
+    </navigator>
+</view>
+</view>

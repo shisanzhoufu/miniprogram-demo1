@@ -1,0 +1,40 @@
+<!-- logo 客服 -->
+<view class="header">
+  <view class="container conHe">
+    <navigator class="logo" open-type="switchTab" url="/page/home/home">
+      <image mode="heightFix" src="/images/logo.png"></image>
+    </navigator>
+    <view class="kefu">
+    <button open-type="contact" class="btn"></button>
+      <image mode="heightFix" src="/images/xiaoxi.png"></image>
+    </view>
+  </view>
+</view>
+
+<view class="main">
+<image class="topImg" src="/images/psbanner.jpg1 (1).jpg"></image>
+<view class="box"> 
+<view class="title"> <text class="txt">专业软件技能</text></view>
+<view>
+  <image class="pic" src="/images/photoshop.png1.png"></image>
+  <image class="pic" src="/images/photoshop.png1.png"></image>
+  <image class="pic" src="/images/photoshop.png1.png"></image>
+  <image class="pic" src="/images/photoshop.png1.png"></image>
+  <image class="pic" src="/images/photoshop.png1.png"></image>
+  <image class="pic" src="/images/photoshop.png1.png"></image>
+</view>
+</view>
+<view class="box" wx:for="{{4}}"> 
+<view class="title"> <text class="txt">专业软件技能</text></view>
+<view>
+  <image class="img" src="/images/psmajor02.jpg2.jpg"></image>
+</view>
+
+
+</view>
+</view>
+
+<view class="footer">
+  <image src="/images/logo.png" class="pic" mode="widthFix"></image>
+  <view class="text">- 高端实训 -</view>
+</view>

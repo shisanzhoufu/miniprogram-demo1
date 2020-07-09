@@ -1,0 +1,15 @@
+<header></header>
+
+   <view class="dyMain">
+    <navigator class="dyItem" wx:for="{{4}}">
+    <view class="pic">
+      <image class="" src="/images/psmajor02.jpg2.jpg"></image>
+    </view>
+      <view class="txt">
+      <view class="title">
+        这里是标题部分
+      </view>
+      <view class="info">作者：小王 - 时间：2020-07-05 </view>
+      </view>
+    </navigator>
+   </view>

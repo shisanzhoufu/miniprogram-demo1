@@ -1,0 +1,8 @@
+.container{
+  padding:0 26rpx;
+  box-sizing: border-box;
+}
+@keyframes dh{
+  0%,50%,100%{opacity: 1;}
+  25%{opacity: 0;}
+}
